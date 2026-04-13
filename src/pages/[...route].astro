@@ -1,0 +1,43 @@
+---
+import Layout from '../layouts/Layout.astro';
+import App from '../App.tsx';
+
+export function getStaticPaths() {
+  // Define all static entry points where a user might land directly
+  // or refresh the page, so Astro generates an HTML wrapper for React Router.
+  return [
+    { params: { route: undefined } }, // Root '/'
+    { params: { route: 'checkout' } },
+    { params: { route: 'cart' } },
+    { params: { route: 'login' } },
+    { params: { route: 'shop' } },
+    { params: { route: 'work' } },
+    { params: { route: 'beauty' } },
+    { params: { route: 'bestseller' } },
+    { params: { route: 'sale' } },
+    { params: { route: 'admin' } },
+    { params: { route: 'admin/orders' } },
+    { params: { route: 'admin/products' } },
+    { params: { route: 'admin/coupons' } },
+    { params: { route: 'admin/analytics' } },
+    { params: { route: 'admin/settings' } },
+    { params: { route: 'tracking' } },
+    { params: { route: 'lieferung-versand' } },
+    { params: { route: 'ruecksendung-umtausch' } },
+    { params: { route: 'zahlungsarten' } },
+    { params: { route: 'faq' } },
+    { params: { route: 'datenschutzerklaerung' } },
+    { params: { route: 'impressum' } },
+    { params: { route: 'agb' } },
+    { params: { route: 'success' } },
+    { params: { route: 'account' } },
+    { params: { route: 'lp/schminktisch' } },
+    { params: { route: 'product/TEST001' } }
+  ];
+}
+---
+
+<Layout title="MAMORU - Nordic Green Shop">
+    <!-- The entire React SPA is mounted here and handled by react-router-dom -->
+	<App client:only="react" />
+</Layout>

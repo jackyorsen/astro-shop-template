@@ -1,0 +1,42 @@
+{
+  "shop": {
+    "name": "Mamoru Möbel",
+    "shortName": "MAMORU",
+    "tagline": "Entdecken Sie zeitloses Design für Ihr Zuhause. Premium Qualität, nachhaltige Materialien und exzellenter Service seit 2020.",
+    "domain": "mamorumoebel.ch",
+    "logo": "/logo-mamoru.png",
+    "primaryColor": "#2b4736",
+    "accentColor": "#d9534f"
+  },
+  "company": {
+    "legalName": "MAMORU GmbH",
+    "address": {
+      "street": "Rathausplatz 3",
+      "zip": "8853",
+      "city": "Lachen",
+      "country": "Schweiz"
+    },
+    "contact": {
+      "email": "aureliusherrscher@gmail.com",
+      "phone": "+41 76 200 46 78",
+      "hours": "Mo-Fr: 9:00 - 18:00 Uhr\nSa: 10:00 - 16:00 Uhr"
+    }
+  },
+  "features": {
+    "freeShipping": true,
+    "returnDays": 30,
+    "multiCurrency": true,
+    "currencies": ["EUR", "CHF"],
+    "paymentMethods": ["visa", "mastercard", "paypal", "klarna", "twint"]
+  },
+  "navigation": {
+    "mainGroups": ["Wohnzimmer", "Schlafzimmer", "Küche & Esszimmer", "Büro"],
+    "showRoomsMenu": true,
+    "showSaleSection": true
+  },
+  "seo": {
+    "defaultTitle": "Mamoru Möbel - Premium Möbel für Ihr Zuhause",
+    "defaultDescription": "Entdecken Sie hochwertige Möbel bei Mamoru. Von Wohnzimmer bis Büro - zeitloses Design trifft auf Qualität.",
+    "keywords": ["möbel", "premium möbel", "schweizer möbel", "designer möbel"]
+  }
+}

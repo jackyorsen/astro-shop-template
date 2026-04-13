@@ -1,0 +1,34 @@
+{
+  "name": "astro-shop",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.4.2",
+    "@stripe/react-stripe-js": "^5.6.0",
+    "@stripe/stripe-js": "^8.8.0",
+    "@tailwindcss/vite": "^4.2.0",
+    "@types/file-saver": "^2.0.7",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^5.17.1",
+    "axios": "^1.13.5",
+    "file-saver": "^2.0.5",
+    "firebase": "^12.9.0",
+    "framer-motion": "^12.34.3",
+    "jspdf": "^4.2.0",
+    "jspdf-autotable": "^5.0.7",
+    "jszip": "^3.10.1",
+    "lucide-react": "^0.575.0",
+    "papaparse": "^5.5.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.0",
+    "tailwindcss": "^4.2.0"
+  }
+}
